@@ -26,7 +26,7 @@ class Solution:
             return False
 
 
-# Similar algorithm in Scala blows up stack
+""" SCALA: Similar implementatin blows up stack
 object Solution {
   def isBalanced(root: TreeNode): Boolean = {
     val (_, balanced) = treeDepth(root)
@@ -42,12 +42,12 @@ object Solution {
     val bal = ((depL <= depR + 1) && (depR <= depL + 1)) // this node is balanced
     return (List(depL, depR).max + 1, (bal && balL && balR))
    }
-}
+} """
 
-# This algorithm checks for minimum height tree;
-# which does not satisfy problem test case:
-#   Input: [1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5]
-#   Output: False; Expected: True
+""" This approach checks for minimum height tree;
+    which does not satisfy problem test case:
+      Input: [1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5]
+      Output: False; Expected: True
 object Solution {
   def isBalanced(root: TreeNode): Boolean = {
     val (minD, maxD) = minMaxDepth(root)
@@ -62,6 +62,4 @@ object Solution {
     val (minR, maxR) = minMaxDepth(node.right)
     return (List(minL, minR).min + 1, List(maxL, maxR).max + 1)
    }
-}
-
-
+} """
