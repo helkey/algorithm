@@ -28,9 +28,10 @@ become completely impractical for large data sets.
 | Linked List | Reverse Linked List | [LC206](https://leetcode.com/problems/reverse-linked-list/) | [Python](python/169_majority_element.scala)
 | Hash Table | Valid Anagram | [LC242](https://leetcode.com/problems/valid-anagram/) | [Scala](scala/242_Valid_Anagram.scala)
 | Array | Fibonacci Number | [LC509](https://leetcode.com/problems/fibonacci-number/) | [Go](go/509_Fibonacci.go)
-| Sorting | Sort Array | [LC912]() | [Python](python/912_sortarray.py)
-| Concurrency | Print In Order | [LC1114]() | [Python](python/1114_PrintInOrder.py)
-| Concurrency | Foo Bar Alternate | [LC1115]() | [Python](python/1115_FooBarAlternate.py)
+| Sorting | Sort Array | [LC912](https://leetcode.com/problems/sort-an-array/) | [Python](python/912_sortarray.py)
+| Concurrency | Print In Order | [LC1114](https://leetcode.com/problems/print-in-order/) | [Python](python/1114_PrintInOrder.py)
+| Concurrency | Foo Bar Alternate | [LC1115](https://leetcode.com/problems/print-foobar-alternately/) | [Python](python/1115_FooBarAlternate.py)
+| Concurrency | Fizz Buzz Multithreaded | [LC1195](https://leetcode.com/problems/fizz-buzz-multithreaded/) | [Python](python/1195_Fizzbuzz_Multithreaded.py)
 
 
 
