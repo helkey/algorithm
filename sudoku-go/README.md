@@ -4,7 +4,7 @@ Sudoku puzzles are a popular pastime, and a good opportunity to illustrate recur
 
 An [example of a sudoku puzzle](https://leetcode.com/problems/sudoku-solver/) is shown below:
 
-![Sudoku problem](/250px-Sudoku-by-L2G-20050714.svg.png "Sudoku problem")
+![Sudoku problem](/sudoku-go/250px-Sudoku-by-L2G-20050714.png "Sudoku problem")
 
 A Sudoku solver is a classic example of recursive backtracking. This algorithm makes a list of possible choices at each square, 
   tries one of the possible choices, then passes the new set with additional choice to a recursive solver. 
@@ -58,7 +58,7 @@ An additional efficiency improvement to minimize calculation at each iteration i
 Sudoku problems are expected to be designed to have only a single solution.
 This program returns the first solution:
 
-![Sudoku solution](/250px-Sudoku-by-L2G-20050714_solution.svg.png "Sudoku solution")
+![Sudoku solution](/sudoku-go/250px-Sudoku-by-L2G-20050714_solution.png "Sudoku solution")
 
 but could be trivially extended to check if there is more than one possible solution.
 
