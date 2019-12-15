@@ -7,6 +7,12 @@ k-smallest: O(k * log(n))
 
 Faster than 83% of Python submissions
 """
+# Python library solution
+#  collections.Counter(nums).most_common(k)
+
+# Much faster: only store k most frequent items on heap:
+#  leetcode.com/problems/top-k-frequent-elements/discuss/441971/Python-%3A-Min-Heap-Beats-98-solutions
+
 
 from collections import defaultdict
 import heapq
@@ -28,3 +34,4 @@ class Solution:
 s = Solution()
 print(s.topKFrequent([1,1,1,2,2,3], 2))
 print(s.topKFrequent([3,1,1,1,2,2], 2))
+
