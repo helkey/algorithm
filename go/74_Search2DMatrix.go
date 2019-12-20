@@ -1,6 +1,10 @@
 /* 74. Search a 2D Matrix
+  * Integers in each row are sorted from left to right.
+  * The first integer of each row is greater than the last integer of the previous row.
 
-O(log(n)) binary search
+This is a linear sorted array of len = nrow*ncol, arranged in rows. Just search the linear array.
+  O(log(n)) binary search
+
 (faster than 98% of Go submissions) */
 
 package main
