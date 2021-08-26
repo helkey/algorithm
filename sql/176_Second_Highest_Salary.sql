@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/second-highest-salary/
+-- https://leetcode.com/problems/second-highest-salary/
 
 SELECT
   (SELECT DISTINCT
